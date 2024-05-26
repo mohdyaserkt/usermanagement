@@ -32,7 +32,7 @@ let getUserData= async()=>{
 
   
 
-  const [columnDefs, setColumnDefs] = useState<ColDef[]>([
+  const columnDefs=[
     {
       field: 'name',
       headerName: 'Name',
@@ -55,7 +55,7 @@ let getUserData= async()=>{
       field: 'lastLoginDate',
       headerName: 'Last Login Date',
     },
-  ]);
+  ]
 
   const defaultColDef = useMemo<ColDef>(() => {
     return {
