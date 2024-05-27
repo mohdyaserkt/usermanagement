@@ -1,19 +1,21 @@
-# Project Title
 
-A brief description of your project and its main features.
+
+# User Management Application
+
+A comprehensive user management application built using TypeScript, Node.js, and MongoDB. This application provides functionalities for user signup and login, listing users, and an admin side dashboard with charts and tables.
+
 
 ## Table of Contents
 
-- [Project Title](#project-title)
+- [User Management](#project-title)
 - [Table of Contents](#table-of-contents)
 - [Client](#client)
   - [Setup and Installation](#setup-and-installation)
   - [Available Scripts](#available-scripts)
-  - [Dependencies](#dependencies)
+  
 - [Server](#server)
   - [Setup and Installation](#setup-and-installation-1)
   - [Available Scripts](#available-scripts-1)
-  - [Dependencies](#dependencies-1)
   - [Architecture](#architecture)
 - [License](#license)
 
@@ -48,35 +50,6 @@ To set up and run the client application, follow these steps:
 - `lint`: Runs ESLint to lint the codebase.
 - `preview`: Previews the production build.
 
-### Dependencies
-
-- **Main dependencies**:
-  - `@ag-grid-community/client-side-row-model`
-  - `@ag-grid-community/core`
-  - `@ag-grid-community/react`
-  - `@ag-grid-community/styles`
-  - `axios`
-  - `jwt-decode`
-  - `react`
-  - `react-dom`
-  - `react-google-charts`
-  - `react-hot-toast`
-  - `react-router-dom`
-
-- **Development dependencies**:
-  - `@types/react`
-  - `@types/react-dom`
-  - `@typescript-eslint/eslint-plugin`
-  - `@typescript-eslint/parser`
-  - `@vitejs/plugin-react-swc`
-  - `autoprefixer`
-  - `eslint`
-  - `eslint-plugin-react-hooks`
-  - `eslint-plugin-react-refresh`
-  - `postcss`
-  - `tailwindcss`
-  - `typescript`
-  - `vite`
 
 ## Server
 
@@ -107,23 +80,6 @@ To set up and run the server application, follow these steps:
 - `start`: Starts the server using `ts-node-dev`.
 - `build`: Compiles the TypeScript files.
 
-### Dependencies
-
-- **Main dependencies**:
-  - `@types/express`
-  - `bcrypt`
-  - `cors`
-  - `dotenv`
-  - `express`
-  - `jsonwebtoken`
-  - `mongoose`
-  - `ts-node-dev`
-  - `typescript`
-
-- **Development dependencies**:
-  - `@types/bcrypt`
-  - `@types/cors`
-  - `@types/jsonwebtoken`
 
 ### Architecture
 
