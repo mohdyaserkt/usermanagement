@@ -14,6 +14,7 @@ function App() {
       <Router>
       <Routes>
         <Route path="/signup" element={<SignupSection />} />
+        <Route path="/" element={<SignupSection />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/user" element={<ProtectedRoute><UserHome /></ProtectedRoute>} />
         <Route path="/admin" element={<AdminProtectedRoute> <AdminTab /></AdminProtectedRoute>} />
