@@ -25,13 +25,12 @@ const loginAdminController = (dependencies: Dependencies) => {
 
       const loginAdmin = loginAdminUseCase(dependencies);
       const response = await loginAdmin.execute({ emailId, password });
-      const token = generateToken({emailId,role:"Admin"}.toString())
-
+      
       if (response) {
         res.status(200).json(
           new Response({
             status: true,
-            content: {token},
+            content: {},
           })
         );
       } else {
