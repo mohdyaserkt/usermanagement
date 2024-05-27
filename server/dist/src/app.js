@@ -11,7 +11,7 @@ const dependencies_1 = __importDefault(require("./config/dependencies"));
 const ErrorHandler_1 = __importDefault(require("./frameworks/expressSpecific/ErrorHandler"));
 const mongo_1 = require("./frameworks/database/mongo");
 const cors_1 = __importDefault(require("cors"));
-dotenv_1.default.config();
+dotenv_1.default.config({ path: '../.env' });
 const app = (0, express_1.default)();
 const PORT = parseInt(process.env.PORT, 10) || 3000;
 const API_PREFIX = process.env.API_PREFIX || '/api/v1';

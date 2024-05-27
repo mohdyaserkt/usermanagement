@@ -7,7 +7,7 @@ import ErrorHandler from './frameworks/expressSpecific/ErrorHandler';
 import { connect as connectToMongo } from './frameworks/database/mongo';
 import cors from 'cors'
 
-dotenv.config();
+dotenv.config({path:'../.env'});
 
 const app: Express = express();
 
